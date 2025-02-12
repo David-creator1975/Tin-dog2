@@ -1,0 +1,78 @@
+/* media query break point 990px */
+@media screen and (max-width:1400px){
+  .row{justify-content: center;
+        margin-left:0.55rem;
+      }
+
+      .d-block{margin-left:1.8rem;}
+
+  .display-5{text-align: center;
+  }
+
+  
+  
+}
+
+@media(max-width:766px){
+  .d-block{margin-left: 0.26rem;}
+}
+
+/* hero background  */
+.container,.row,.col-lg-6{position: relative;}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* ******************************************** */
+
+/* testamonial  */
+
+
+.logo{height:3rem;
+      
+      }
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+/* ***************************************************** */
+
+/* pricing  */
+
+
+
+.fa-paw{position:relative;
+  margin-right: 0.45rem;
+  color:#ff4c68;
+         }
+
+/* ***************************************************** */
+
+/* footer */
+@media(max-width:559px){
+ .nav,h5{text-align: center;}
+}
+.logotwo{text-align: center;
+          margin-top:2rem;
+           padding:1rem;}
